@@ -1,0 +1,124 @@
+body {
+    font-family: Brush Script;
+    margin: 0;
+    padding: 0;
+    background-color: #8e22bb;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.titulo-carrosel {
+    font-size: 2.5rem;
+}
+
+#carrossel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carrossel-container {
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#contador {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#titulo-quanto-tempo {
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.separador {
+    width: 100%;
+    height: 1px; /* Altura da linha */
+    background-color: #ccc; /* Cor sutil da linha */
+    margin: 20px 0; /* Espaço entre as seções */
+    border: none;
+}
+
+
+#texto {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.justificado {
+    text-align: center;
+}
+
+/* Estilo para o vídeo */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
