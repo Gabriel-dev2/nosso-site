@@ -94,6 +94,10 @@ button:hover {
     text-align: center;
 }
 
+#video {
+    padding-bottom: 20%;
+}
+
 /* Estilo para o vídeo */
 .video-container {
     position: relative;
