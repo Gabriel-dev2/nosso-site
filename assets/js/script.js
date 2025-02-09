@@ -20,7 +20,7 @@ function mudarImagem(direcao) {
 
 setInterval(() => {
     mudarImagem(1); // Avança uma imagem a cada 3 segundos
-}, 3000);
+}, 5300);
 
 function calcularDiferenca() {
     const agora = new Date();
